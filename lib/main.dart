@@ -43,6 +43,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const Text("HelloWorld"),
             const Text("ハローワールド"),
+            TextButton(
+                onPressed: () => {print("ボタンが押されたよ")},
+                child: const Text("テキストボタン"))
           ],
         ));
   }
