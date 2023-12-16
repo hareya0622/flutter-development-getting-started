@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// StatefulWiidget
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -32,6 +33,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+// State
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
